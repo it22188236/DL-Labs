@@ -1,0 +1,8 @@
+
+1. With very few hidden nodes, the network has low capacity → underfitting → low accuracy.  
+   As hidden nodes increase, the model can capture more complex decision boundaries → accuracy improves.  
+   With too many hidden nodes, the model may overfit the training set. Accuracy stops improving significantly.
+
+2. Accuracy rises quickly when moving from very few nodes (1–3) to moderate (4–20).  
+   After ~20 nodes, the accuracy curve **plateaus** → adding more nodes does not bring major gains.  
+   At very large hidden sizes, results may fluctuate slightly due to overfitting or randomness.
